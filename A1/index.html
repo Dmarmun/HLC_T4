@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de Notas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Bloc de Notas</h1>
+        <div>
+            <label for="tema">Tema:</label>
+            <select id="tema" required>
+                <option value="claro">🌞 Claro</option>
+                <option value="oscuro">🌙 Oscuro</option>
+                <option value="azul">🌊 Azul</option>
+                <option value="rosa">🌸 Rosa</option>
+                <option value="verde">🍃 Verde</option>
+            </select>
+        </div>
+    </header>
+    <textarea class="cuadro" id="nota" name="nota" placeholder="Escribe tu nota aquí..." rows="10"></textarea>
+    <script src="index.js"></script>
+</body>
+</html>
